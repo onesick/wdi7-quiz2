@@ -19,7 +19,7 @@ Your Answer:
 ```text
 Non-floated elements can't 'feel' floated elements. As such, when we have the
 two types near each other, we may experience 'bugs' in our layout. Examples:
-* a non-floated container with a border will not adjust it's height correctly to
+* a non-floated container with a border will not adjust its height correctly to
   surround floated elements inside of it. (i.e the border will collapse)
 
 A common clear fix is:
@@ -36,7 +36,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 [x] Selects all li's which are directly inside a ul of class dropdown (children)
-[] Selects all li's which are anywhere inside a ul of class dropdown (any ancestor)
+[] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
