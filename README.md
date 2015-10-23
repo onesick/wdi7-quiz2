@@ -123,8 +123,12 @@ Your Answer:
 
 ### Question #10
 
-Write out five (5) user stories for your first project. Be sure to include a
+Create a repo for project 1. (You don't need to fork, just create a brand new repo).
+
+Create a readme.md in that repo. In the readme, write out five (5) user stories for your first project. Be sure to include a
 role, goal, and reason for each.
+
+Finally, link to your repo on github in the space below.
 
 Your Answer:
 ```text
