@@ -7,7 +7,8 @@
 Describe the purpose of a clearfix in CSS, and give an example of how to do it.
 
 Your Answer:
-
+```text
+```
 
 ### Question #2
 
@@ -23,14 +24,16 @@ Select 1:
 
 ## Scope/Context/Closures
 
-### Question
+### Question #3
 
 Describe the rules of scope in JavaScript.
 
 Your Answer:
+```text
+```
 
 
-### Question
+### Question #4
 
 Define an object and store it in a variable `pizza`. The object should have 2
 properties: a temperature (set to 70), and a method called `bake`. When called,
@@ -44,7 +47,7 @@ Your Answer:
 
 ## Callbacks
 
-### Question
+### Question #5
 
 **Define a function called `doSomething`. It should take one argument, called
 `thingToDo`. When called, thing to do should invoke the function given as an
@@ -55,7 +58,7 @@ Your Answer:
 // write code here
 ```
 
-### Question
+### Question #6
 
 **What is the difference between synchronous and asynchronous program execution?**
 
@@ -68,7 +71,7 @@ Select all that apply:
 
 ## Git
 
-### Question
+### Question #7
 
 Which of the following represents a correct workflow for submitting a PR on a non-master branch?
 (ignore the lack of commit messages)
@@ -83,7 +86,7 @@ Select 1:
 
 ## jQuery
 
-### Question
+### Question #8
 
 Which of the following statements will work, assuming jQuery is loaded?
 
@@ -96,7 +99,7 @@ Select all that apply:
 [] `document.getElementsByClassName("post").innerHTML`
 ```
 
-### Question
+### Question #9
 
 Using jQuery, add an event listener for clicks on the button with the id
 'greeting'. When the event happens, the code should append a paragraph to the
@@ -109,9 +112,11 @@ Your Answer:
 
 ## Software Development Processes
 
-### Question
+### Question #10
 
 Write out five (5) user stories for your first project. Be sure to include a
 role, goal, and reason for each.
 
 Your Answer:
+```text
+```
