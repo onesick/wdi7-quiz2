@@ -1,5 +1,14 @@
 # Quiz #1
 
+## Instructions
+
+1. Fork this repo
+2. Clone your fork
+3. Fill in your answers by writing in the appropriate area, or placing an 'x' in
+the square brackets (for multiple-choice questions).
+4. Add/Commit/Push your changes to Github.
+5. Open a pull request.
+
 ## CSS
 
 ### Question #1
