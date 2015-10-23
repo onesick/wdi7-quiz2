@@ -1,4 +1,4 @@
-# Quiz #1
+# Quiz #2
 
 ## Instructions
 
