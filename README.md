@@ -59,7 +59,7 @@ Your Answer:
 ### Question #5
 
 **Define a function called `doSomething`. It should take one argument, called
-`thingToDo`. When called, thing to do should invoke the function given as an
+`thingToDo`. When called, `doSomething` should invoke the function given as an
 argument. Finally, demonstrate calling `doSomething` with a function.**
 
 Your Answer:
