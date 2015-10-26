@@ -16,7 +16,18 @@ the square brackets (for multiple-choice questions).
 Describe the purpose of a clearfix in CSS, and give an example of how to do it.
 
 Your Answer:
-```text
+```
+clearfix is used to clear its child element. It's generally being used in float
+layouts. It clears float with a better and cleaner way.(more convinient)
+EX:
+img{
+  float: right;
+
+}
+.clearfix{
+  overflow: auoto;
+}
+
 ```
 
 ### Question #2
@@ -25,7 +36,7 @@ What does the following selector do?  `ul.dropdown > li`?
 
 Select 1:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[1] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -38,7 +49,12 @@ Select 1:
 Describe the rules of scope in JavaScript.
 
 Your Answer:
-```text
+```
+There are two types of scopes: 1. global scope, 2. local scope
+variables created without var would be global
+All functions create a local variable.
+The current scope inherits all oustide scope excluding local variables created
+within functions.
 ```
 
 
@@ -51,7 +67,12 @@ the variable pizza inside your method.
 
 Your Answer:
 ```js
-// write code here
+var pizza={
+  temperature: 70;
+  bake: function(){
+      this.temperature=300;
+  }
+};
 ```
 
 ## Callbacks
@@ -64,7 +85,12 @@ argument. Finally, demonstrate calling `doSomething` with a function.**
 
 Your Answer:
 ```js
-// write code here
+function doSomething(thingToDo){
+  thingsToDo="code practice";
+  console.log(thingsToDo);
+}
+// calling doSomething() will display "code practice"
+doSomething();
 ```
 
 ### Question #6
@@ -75,7 +101,7 @@ Select all that apply:
 ```
 [] Synchronous code runs at an even pace, asynchronous code runs with uneven pacing.
 [] Synchronous code runs all at the same time, asynchronous code runs completely randomly
-[] Synchronous code runs in order (as appears in the source), asynchronous code may run at a later time.
+[1] Synchronous code runs in order (as appears in the source), asynchronous code may run at a later time.
 ```
 
 ## Git
